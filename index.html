@@ -5,20 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Онлайн-курсы ЕГЭ 2026</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4e9b6e6e2a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="main-header">
-    <h1>Онлайн-курсы ЕГЭ 2026</h1>
-    <p class="subtitle">Два авторских курса для успешной сдачи экзаменов</p>
-    <nav class="main-nav">
+  <header class="main-header hero-section">
+    <div class="hero-content">
+      <h1 class="fade-in">Онлайн-курсы ЕГЭ 2026</h1>
+      <p class="subtitle fade-in">Два авторских курса для успешной сдачи экзаменов</p>
+      <a href="#russian-course" class="cta-btn fade-in">Начать обучение</a>
+    </div>
+    <nav class="main-nav sticky-nav fade-in">
       <a href="#russian-course">Русский язык</a>
       <a href="#math-course">Математика</a>
     </nav>
   </header>
   <main>
-    <section id="russian-course" class="course-section course-black">
+    <section id="russian-course" class="course-section course-black fade-in">
       <div class="course-card">
-        <h2>Русский язык</h2>
+        <h2><i class="fas fa-book-open accent"></i> Русский язык</h2>
         <img src="photo_2025-05-21_01-08-27.jpg" alt="Гаффарова Гузель" class="author-photo" />
         <div class="course-info">
           <h3>Гаффарова Гузель</h3>
@@ -30,27 +35,30 @@
         </div>
         <div class="course-features">
           <ul>
-            <li>В 2023 году сдала ЕГЭ на 95 баллов, знает всю структуру и подводные камни.</li>
-            <li>Учится на бюджете в КФУ, г. Казань.</li>
-            <li>Неоднократный победитель олимпиад различных уровней.</li>
+            <li><i class="fas fa-trophy accent"></i> В 2023 году сдала ЕГЭ на 95 баллов, знает всю структуру и подводные камни.</li>
+            <li><i class="fas fa-university accent"></i> Учится на бюджете в КФУ, г. Казань.</li>
+            <li><i class="fas fa-medal accent"></i> Неоднократный победитель олимпиад различных уровней.</li>
           </ul>
         </div>
-        <div class="course-price">Стоимость курса: <strong>2000 рублей</strong></div>
+        <div class="course-price"><i class="fas fa-ruble-sign accent"></i> Стоимость курса: <strong>2000 рублей</strong></div>
         <div class="course-faq">
-          <div class="faq-item"><strong>Для кого предназначен курс?</strong><br>Он будет полезен для всех выпускников: одни могут дополнительно попрактиковаться на заданиях с реального ЕГЭ, а другие наработать базу для получения минимальных баллов за короткий срок.</div>
-          <div class="faq-item"><strong>Нужна ли какая-то база?</strong><br>Необязательно, к каждому заданию будет пояснение с опорой на необходимую теорию.</div>
+          <div class="faq-item"><i class="fas fa-question-circle accent"></i> <strong>Для кого предназначен курс?</strong><br>Он будет полезен для всех выпускников: одни могут дополнительно попрактиковаться на заданиях с реального ЕГЭ, а другие наработать базу для получения минимальных баллов за короткий срок.</div>
+          <div class="faq-item"><i class="fas fa-question-circle accent"></i> <strong>Нужна ли какая-то база?</strong><br>Необязательно, к каждому заданию будет пояснение с опорой на необходимую теорию.</div>
         </div>
         <div class="course-program">
-          <h4>Что вас ждет на курсе?</h4>
+          <h4><i class="fas fa-calendar-alt accent"></i> Что вас ждет на курсе?</h4>
           <ul>
             <li><strong>30 августа</strong> — полный разбор заданий тестовой части от составителей ЕГЭ, подробные пояснения, обсуждение досрочного варианта с реального ЕГЭ 2026.</li>
           </ul>
         </div>
       </div>
     </section>
-    <section id="math-course" class="course-section course-white">
+    <div class="wavy-divider">
+      <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,0 C480,120 960,0 1440,120 L1440,120 L0,120 Z"></path></svg>
+    </div>
+    <section id="math-course" class="course-section course-white fade-in">
       <div class="course-card">
-        <h2>Математика</h2>
+        <h2><i class="fas fa-calculator accent"></i> Математика</h2>
         <img src="photo_2025-05-21_01-08-27.jpg" alt="Иванов Иван" class="author-photo" />
         <div class="course-info">
           <h3>Иванов Иван</h3>
@@ -62,17 +70,17 @@
         </div>
         <div class="course-features">
           <ul>
-            <li>В 2023 году сдал ЕГЭ по математике на 98 баллов, знает все тонкости экзамена.</li>
-            <li>Выпускник МГУ, опыт преподавания 5 лет.</li>
+            <li><i class="fas fa-trophy accent"></i> В 2023 году сдал ЕГЭ по математике на 98 баллов, знает все тонкости экзамена.</li>
+            <li><i class="fas fa-university accent"></i> Выпускник МГУ, опыт преподавания 5 лет.</li>
           </ul>
         </div>
-        <div class="course-price">Стоимость курса: <strong>2500 рублей</strong></div>
+        <div class="course-price"><i class="fas fa-ruble-sign accent"></i> Стоимость курса: <strong>2500 рублей</strong></div>
         <div class="course-faq">
-          <div class="faq-item"><strong>Для кого предназначен курс?</strong><br>Для всех, кто хочет сдать ЕГЭ по математике на высокий балл. Подходит для любого уровня подготовки.</div>
-          <div class="faq-item"><strong>Нужна ли база по математике?</strong><br>Нет, курс рассчитан на разный уровень знаний, все темы объясняются с нуля.</div>
+          <div class="faq-item"><i class="fas fa-question-circle accent"></i> <strong>Для кого предназначен курс?</strong><br>Для всех, кто хочет сдать ЕГЭ по математике на высокий балл. Подходит для любого уровня подготовки.</div>
+          <div class="faq-item"><i class="fas fa-question-circle accent"></i> <strong>Нужна ли база по математике?</strong><br>Нет, курс рассчитан на разный уровень знаний, все темы объясняются с нуля.</div>
         </div>
         <div class="course-program">
-          <h4>Что вас ждет на курсе?</h4>
+          <h4><i class="fas fa-calendar-alt accent"></i> Что вас ждет на курсе?</h4>
           <ul>
             <li><strong>5 сентября</strong> — старт курса. Полный разбор заданий, теория и практика, поддержка преподавателя.</li>
           </ul>
@@ -80,19 +88,31 @@
       </div>
     </section>
   </main>
-  <footer class="main-footer">
+  <footer class="main-footer fade-in">
     <div class="footer-content">
       <div class="footer-social">
-        <a href="https://t.me/iuan01" target="_blank">Telegram</a> |
-        <a href="https://wa.me/79604236155" target="_blank">WhatsApp</a>
+        <a href="https://t.me/iuan01" target="_blank"><i class="fab fa-telegram accent"></i> Telegram</a> |
+        <a href="https://wa.me/79604236155" target="_blank"><i class="fab fa-whatsapp accent"></i> WhatsApp</a>
       </div>
       <div class="footer-copy">© Гаффарова Гузель. Все права защищены.</div>
       <div class="footer-links">
-        <a href="https://oferta0909090.tilda.ws/oferta" target="_blank">Публичная оферта</a> |
-        <a href="https://oferta0909090.tilda.ws/page66764079.html" target="_blank">Согласие на обработку персональных данных</a> |
-        <a href="https://oferta0909090.tilda.ws/personal" target="_blank">Политика конфиденциальности</a>
+        <a href="https://oferta0909090.tilda.ws/oferta" target="_blank"><i class="fas fa-file-contract accent"></i> Публичная оферта</a> |
+        <a href="https://oferta0909090.tilda.ws/page66764079.html" target="_blank"><i class="fas fa-user-shield accent"></i> Согласие на обработку персональных данных</a> |
+        <a href="https://oferta0909090.tilda.ws/personal" target="_blank"><i class="fas fa-user-secret accent"></i> Политика конфиденциальности</a>
       </div>
     </div>
   </footer>
+  <script>
+    // Fade-in animation on scroll
+    const fadeEls = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+    fadeEls.forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
